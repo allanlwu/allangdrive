@@ -1,14 +1,14 @@
 define(['jquery', 'base/js/utils'], function ($, utils) {
     function createDisplayDiv() {
         $('#maintoolbar-container').append(
-            $('<div>').attr('id', 'nbresuse-display')
+            $('<div>').attr('id', 'allanresuse-display')
                       .addClass('btn-group')
                       .addClass('pull-right')
             .append(
-                $('<strong>').text('Mem: ')
+                $('<strong>').text('Upload to GDrive: ')
             ).append(
-                $('<span>').attr('id', 'nbresuse-mem')
-                           .attr('title', 'Actively used Memory (updates every 5s)')
+                $('<span>').attr('id', 'allanresuse-mem')
+                           .attr('title', 'Manually upload to Google Drive')
             )
         );
     }
@@ -22,7 +22,7 @@ define(['jquery', 'base/js/utils'], function ($, utils) {
             if (data['limits']['mem'] !== null) {
                 display += " / " + (data['limits']['mem'] / (1024 * 1024));
             }
-            $('#nbresuse-mem').text(display);
+            $('#allanresuse-mem').text(display);
         });
     }
 

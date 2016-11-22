@@ -11,5 +11,5 @@ setuptools.setup(
         'psutil',
         'notebook',
     ],
-    package_data={'nbresuse': ['static/*']},
+    package_data={'allanresuse': ['static/*']},
 )
