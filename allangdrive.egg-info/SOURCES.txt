@@ -1,0 +1,8 @@
+allangdrive.egg-info/PKG-INFO
+allangdrive.egg-info/SOURCES.txt
+allangdrive.egg-info/dependency_links.txt
+allangdrive.egg-info/requires.txt
+allangdrive.egg-info/top_level.txt
+allanresuse/__init__.py
+allanresuse/handlers.py
+allanresuse/static/main.js

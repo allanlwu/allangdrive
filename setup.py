@@ -10,5 +10,5 @@ setuptools.setup(
     install_requires=[
         'notebook',
     ],
-    package_data={'allanresuse': ['static/*']},
+    package_data={'allangdrive': ['static/*']},
 )
