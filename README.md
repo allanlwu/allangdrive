@@ -7,7 +7,7 @@ displays an indication of how much resources your current notebook server and
 its children (kernels, terminals, etc) are using. This is displayed in the
 main toolbar in the notebook itself, refreshing every 5s.
 
-## Installation
+<!-- ## Installation
 
 You can currently install this directly from git:
 
@@ -21,7 +21,7 @@ To enable this extension for all notebooks:
 
 ```
 jupyter nbextension enable --py nbresuse
-```
+``` -->
 
 ## Resources displayed
 
