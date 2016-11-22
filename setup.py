@@ -1,14 +1,13 @@
 import setuptools
 
 setuptools.setup(
-    name="nbresuse",
+    name="allangdrive",
     version='0.1.0',
-    url="https://github.com/yuvipanda/nbresuse",
-    author="Yuvi Panda",
-    description="Simple Jupyter extension to show how much resources (RAM) your notebook is using",
+    url="https://github.com/allanlwu/allanresuse",
+    author="Allan Wu",
+    description="Jupyter extension to allow user to sync files to Google Drive",
     packages=setuptools.find_packages(),
     install_requires=[
-        'psutil',
         'notebook',
     ],
     package_data={'allanresuse': ['static/*']},
