@@ -1,16 +1,16 @@
-from allanresuse.handlers import setup_handlers
+from allangdrive.handlers import setup_handlers
 # Jupyter Extension points
 def _jupyter_server_extension_paths():
     return [{
-        'module': 'allanresuse',
+        'module': 'allangdrive',
     }]
 
 def _jupyter_nbextension_paths():
     return [{
         "section": "notebook",
-        "dest": "allanresuse",
+        "dest": "allangdrive",
         "src": "static",
-        "require": "allanresuse/main"
+        "require": "allangdrivemain"
     }]
 
 def load_jupyter_server_extension(nbapp):
