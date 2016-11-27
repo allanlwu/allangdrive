@@ -10,7 +10,7 @@ def _jupyter_nbextension_paths():
         "section": "notebook",
         "dest": "allangdrive",
         "src": "static",
-        "require": "allangdrivemain"
+        "require": "allangdrive/main"
     }]
 
 def load_jupyter_server_extension(nbapp):
